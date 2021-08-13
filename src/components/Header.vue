@@ -73,7 +73,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100">
       <div class="container">
         <a class="navbar-brand d-block d-md-none" href="#">
-          <img src="/image/Logo.png" alt="" />
+          <img src="../assets/logo.png" alt="" />
         </a>
         <button
           class="navbar-toggler shadow-none border-0"
