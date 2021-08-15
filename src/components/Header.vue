@@ -32,7 +32,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 logo">
-            <a href="#">
+            <a href="/" @click.prevent="$router.push({name:'Home'})">
               <img src="../assets/logo.png" alt="Danphe" />
             </a>
           </div>
@@ -72,7 +72,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100">
       <div class="container">
-        <a class="navbar-brand d-block d-md-none" href="#">
+        <a class="navbar-brand d-block d-md-none" href="/" @click.prevent="$router.push({name:'Home'})">
           <img src="../assets/logo.png" alt="" />
         </a>
         <button
@@ -92,12 +92,13 @@
               <a
                 class="nav-link side active"
                 aria-current="page"
-                href="index.html"
+                href="/"
+                @click.prevent="$router.push({name:'Home'})"
                 >Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link side" href="about-us.html">About us </a>
+              <a class="nav-link side" href="/about" @click.prevent="$router.push({name:'About'})">About us </a>
             </li>
             <li class="nav-item">
               <a class="nav-link side" href="our-service.html">Our Service </a>
